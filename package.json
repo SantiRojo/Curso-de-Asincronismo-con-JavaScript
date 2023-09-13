@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/SantiRojo/Curso-de-Asincronismo-con-JavaScript/issues"
   },
-  "homepage": "https://github.com/SantiRojo/Curso-de-Asincronismo-con-JavaScript#readme"
+  "homepage": "https://github.com/SantiRojo/Curso-de-Asincronismo-con-JavaScript#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
 }

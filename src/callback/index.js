@@ -19,4 +19,4 @@ function greeting(name) {
   console.log(`Hola ${name}`);
 }
 
-setTimeout(greeting, 3000, 'Santi')
+setTimeout(greeting, 3000, 'Santi');
